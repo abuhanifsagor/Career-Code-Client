@@ -8,7 +8,7 @@ const RootLayout = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="min-h-screen max-w-7xl mx-auto px-3">
+      <div className="min-h-screen bg-base-200">
         <Outlet></Outlet>
       </div>
       <Footer></Footer>
